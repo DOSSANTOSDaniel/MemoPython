@@ -3,7 +3,6 @@
 
 """
 Nom du projet : FindExt
-Date de dernière mise à jour : 21/10/20
 Auteur(s) : DOS SANTOS Daniel
 Version : 0
 Notes : Ce programme va permettre de rechercher
@@ -15,26 +14,25 @@ des fichiers par extention.
 
 # Imports de modules
 # --------------------
-
 import os
 
 # Variables globales
 # --------------------
-
 listeFiles = []
 listeFilesFilter = []
+continuer = '1'
 
 # Modules / Fonctions
 # --------------------
 
 # Programme
 # --------------------
-while True:
+while continuer == '1':
+    continuer = '1'
     print("\n\n************************************")
     print("Programme FindExt")
     print("Saissir le chemin absolu d'un dossier")
     print("Saissir l'extention des fichiers que vous cherchez")
-    print("Saissir quit pour quitter le programme")
     print("Exemple : ")
     print("Saisir le chemin : /home/daniel")
     print("Quelle extention : docx")
@@ -42,9 +40,6 @@ while True:
 
     chemin = input("Saisir le chemin : ")
     extent = input("Quelle extention : ")
-
-    if chemin == 'quit' or extent == 'quit':
-        break
 
     extent = '.'+extent
 
@@ -56,5 +51,14 @@ while True:
         extentFile = os.path.splitext(file)[1]
         if extentFile == extent:
             print(file)
+
+    while True:
+        print()
+        choix = input("Voulez vous quitter[0] ou continuer[1] : ")
+        if choix == '0':
+            continuer = 0
+        else:
+            break
+        break
 
 print("\n Fin du Programme FindExt \n")
