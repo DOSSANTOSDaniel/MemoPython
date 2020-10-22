@@ -50,7 +50,8 @@ while continuer == '1':
     for file in listeFiles:
         extentFile = os.path.splitext(file)[1]
         if extentFile == extent:
-            print("\n\n", "Voici les résultats : ", "\n", file, "\n")
+            print("\n\n Voici les résultats : \n")
+            print("\n", file, "\n")
 
     while True:
         print()
