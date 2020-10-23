@@ -47,11 +47,12 @@ while continuer == '1':
         for fichier in files:
             listeFiles.append(os.path.join(root, fichier))
 
+    print("\n\n Voici les résultats : ")
+    print("--------------------------- \n")
+
     for file in listeFiles:
         extentFile = os.path.splitext(file)[1]
         if extentFile == extent:
-            print("\n\n Voici les résultats : ")
-            print("--------------------------- \n")
             print(file, "\n")
 
     while True:
