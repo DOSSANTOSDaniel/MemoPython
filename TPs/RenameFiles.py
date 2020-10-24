@@ -35,10 +35,7 @@ def rename(chemin, texte):
     for file in listeFiles:
         countIter += 1
         extent = os.path.splitext(file)[1]
-        print(extent)
         docPath =  os.path.split(file)[0]
-        print(docPath)
-        print(file)
         os.rename(file, docPath + '/' + texte + '_' + str(countIter) + extent)
 
 # Programme
