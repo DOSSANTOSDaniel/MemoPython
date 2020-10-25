@@ -43,5 +43,7 @@ print(resultat)
 ```
 #### Quand utiliser print ou return dans une fonction ?
 Print est une fonction alors que return est une instruction.
+
 Il faut utiliser print pour affiicher une information à l'écran pour un humain.
+
 Il faut utiliser return pour envoyer une valeur dans un point de votre code, envoyer une valeur vers une autre fonction ou vers une variable.
