@@ -16,7 +16,7 @@ Il est préférable de mettre chaque classe dans un fichier à part.
 Les nom des classes doivent toujours être en CamalCase.
 
 ### Déclaration de la classe :
-```Python
+```python
 class Chien
     def __init__(self):
 	self.nom = "Licos"
@@ -27,7 +27,7 @@ Pour définir les attributs d'un objet, il faut définir un constructeur dans la
 Un constructeur se défini par la méthode "__init__", cette méthode est appelé à chaque création d'objets.
 
 ### Instanciation de la classe (création de l'objet Chien1) :
-```
+```python
 Chien1 = Chien()
 ```
 ### Affichage d l'attribut 'nom' de l'objet Chien1
@@ -36,6 +36,6 @@ Chien1 = Chien()
 >>>  'Licos'
 ``` 
 ### Changer l'attribut 'nom' de l'objet Chien1
-```
+```python
 >>>  Chien1.nom = "Toto"
 ``` 
