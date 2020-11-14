@@ -16,7 +16,7 @@ Il est préférable de mettre chaque classe dans un fichier à part.
 Les nom des classes doivent toujours être en CamalCase.
 
 ### Déclaration de la classe :
-```
+```Python
 class Chien
     def __init__(self):
 	self.nom = "Licos"
@@ -31,7 +31,7 @@ Un constructeur se défini par la méthode "__init__", cette méthode est appel�
 Chien1 = Chien()
 ```
 ### Affichage d l'attribut 'nom' de l'objet Chien1
-```
+```python
 >>>  Chien1.nom
 >>>  'Licos'
 ``` 
