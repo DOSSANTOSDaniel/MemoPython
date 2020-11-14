@@ -14,3 +14,28 @@ Pour créer une classe on a besoin :
 Quand on crée un objet à partir d'une classe (instanciation).
 Il est préférable de mettre chaque classe dans un fichier à part.
 Les nom des classes doivent toujours être en CamalCase.
+
+### Déclaration de la classe :
+```
+class Chien
+    def __init__(self):
+	self.nom = "Licos"
+	self.race = "Berger Allemand"
+	self.age = "8 ans"
+```
+Pour définir les attributs d'un objet, il faut définir un constructeur dans la classe.
+Un constructeur se défini par la méthode "__init__", cette méthode est appelé à chaque création d'objets.
+
+### Instanciation de la classe (création de l'objet Chien1) :
+```
+Chien1 = Chien()
+```
+### Affichage d l'attribut 'nom' de l'objet Chien1
+```
+>>>  Chien1.nom
+>>>  'Licos'
+``` 
+### Changer l'attribut 'nom' de l'objet Chien1
+```
+>>>  Chien1.nom = "Toto"
+``` 
