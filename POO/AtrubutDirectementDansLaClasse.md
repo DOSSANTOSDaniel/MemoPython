@@ -1,5 +1,8 @@
 
 # Des attributs inscrits directement dans une classe
+
+Définir des attributs directement dans la classe permet de simplifier nos objets quand il, doivent tous avoir certaines données identiques.
+
 Exemple d'une classe qui permet de compter le nombre d'objets créés :
 ```python
 class compteur:  
