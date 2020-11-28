@@ -61,4 +61,13 @@ Affichage avec une tabulation
  Bonjour
 
 ```
+Pour afficher la valeur d'une variable on peut simplement taper le nom de la variable au lieu d'utiliser print
 
+```python
+>>> toto = "Daniel"
+>>> toto
+'Daniel'
+>>> print(toto)
+Daniel
+
+```
