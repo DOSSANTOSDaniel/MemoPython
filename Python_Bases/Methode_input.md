@@ -10,11 +10,4 @@ Votre nom : toto
 toto
 
 ```
-
-```python
-
-```
-
-```python
-
-```
+Attention quand une valeur est récupérée à partir de la méthode input elle est toujours de type chaîne de caractère !

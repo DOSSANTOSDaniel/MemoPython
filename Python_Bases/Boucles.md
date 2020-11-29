@@ -1,8 +1,124 @@
-## Les boucles
+# Les boucles
+
+## Boucle for
+
+Une boucle for permet de répéter une action déterminée un nombre de fois lui aussi déterminé.
+
+Exemple :
 
 ```python
+for i in range(5):
+    print(i)
+
+0
+1
+2
+3
+4
 
 ```
+
+| Paramètres | Description |
+|:--|:--|
+| range(5) | C'est une liste de chiffres de 0 à 5 exclut |
+| i | Représente chaque chiffre à chaque tour de la boucle, c'est une variable locale à la boucle |
+
+
+Paramètres de range
+
+Exemple :
+
+```python
+for i in range(10, 20, 2):
+    print(i)
+
+
+10
+12
+14
+16
+18
+
+```
+
+```code
+range(10, 20, 2)
+       |   |  |
+       |   |  +-----> le pas (de 2 en 2)
+       |   +--------> Valeur de fin
+       +------------> Valeur de départ
+```  
+
+Autre exemple, énumération d’éléments d'une liste :
+
+```python
+liste = ["Daniel", "Olivier", "Nicolas"]
+
+for i in liste:
+    print(i)
+
+Daniel
+Olivier
+Nicolas
+
+```
+
+### Utiliser les instructions break et continue
+
+Le break ici permet d'arrêter la boucle quand i est égal à 5 :
+
+```python
+for i in range(10):
+    if i == 5:
+        break
+    print(i)
+
+0
+1
+2
+3
+4
+
+```
+
+Le continue ici permet de continuer la boucle sans afficher le 5, affiche les chiffres de 0 à à 10 exclut sans afficher le 5 
+
+```python
+for i in range(10):
+    if i == 5:
+        continue
+    print(i)
+
+0
+1
+2
+3
+4
+6
+7
+8
+9
+
+```
+
+## La structure d'itération while
+
+La boucle while permet de faire une action en continue tant qu'une condition n'est pas satisfaite ou qu'elle soit fatisfaite 
+
+Exemple :
+
+```python
+toto = 0
+
+while toto < 10:
+    print(toto)
+    toto += 1
+
+```
+
+Explications
+
+Tant que toto contient une valeur inférieur à 10 alors on affiche la valeur de toto et en incrémente la valeur de toto de 1, on va boucles 
 
 ```python
 
