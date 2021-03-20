@@ -1,2 +1,3 @@
 # MemoPython
-Notes sur les cours Python
+
+Notes sur mon apprentissage du langage Python.

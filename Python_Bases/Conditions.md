@@ -12,7 +12,8 @@ else:
     print("Vous n'êtes pas autorisé à entrer !")
 
 ```
-La ligne qui commence par "if" compare si la valeur de la variable "prenom" est identique à la valeur de la variable "personne_autorisee", si c'est le cas alors on indiques les actions à faire dans ce cas là.
+
+La ligne qui commence par "if" compare si la valeur de la variable "prenom" est identique à la valeur de la variable "personne_autorisee", si c'est le cas alors on indique les actions à faire dans ce cas là.
 
 Si les valeurs des deux variable ne sont pas identiques alors on passe à la ligne qui commence par "else" puis on indique les actions à effectuer dans ce cas là. 
 
@@ -55,7 +56,7 @@ Les opérateurs logiques
 | and | et |
 | or | ou |
 
-Ils permettent de combiner plusieurs conditions en une seule ligne
+Les opérateurs logiques permettent de combiner plusieurs conditions en une seule ligne.
 
 Exemple :
 
@@ -69,7 +70,7 @@ elif age > 5 and age <= 17:
 elif age < 5:
     print("Vous êtes un bébé")
 else:
-    print("Vous êtes vieux")
+    print("Vous êtes un vieux")
 
 ```
 
@@ -80,6 +81,7 @@ On peut transformer :
 ```python
 if age >= 18 and age < 60:
 ```
+
 En :
 
 ```python

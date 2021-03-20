@@ -6,7 +6,7 @@ Nom du projet : FindExt
 Auteur(s) : DOS SANTOS Daniel
 Version : 0
 Notes : Ce programme va permettre de rechercher
-des fichiers par extention.
+des fichiers par extension.
 """
 
 # Programme principal

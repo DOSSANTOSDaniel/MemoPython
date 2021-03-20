@@ -1,5 +1,6 @@
 # Système d'exploitation et autres tâches
-## Utilisant le module os
+## Utilisation du module os
+
 Affiche l'utilisateur courent :
 ```Python
 import os
@@ -130,12 +131,12 @@ for i in os.scandir(dir_1):
     print(i)
 ```
 
-## Utilisant le module glob
-Lister un certain type de fichiers :
+## Utilisation du module glob
+
+Lister un certain type de fichiers (ici liste toutes les images au format png dans le répertoire /home/daniel):
 ```Python
 dir_1 = "/home/daniel"
 list_dir = glob.glob("/home/daniel/*.png")
 
 print(list_dir)
 ```
-

@@ -16,10 +16,11 @@ def ma_fonction(liste des parametres):
       bloc de code
 
 ```
+
 ## Fonction sans paramètres
 
 ```Python
-def ma_fonction():		# Declaration de la fonction
+def ma_fonction():		# Déclaration de la fonction
 	print("Salut !")
 
 ma_fonction()		# Appel de la fonction
@@ -63,8 +64,8 @@ print(resultat)
 
 Print est une fonction alors que return est une instruction.
 
-Il faut utiliser print pour affiicher une information à l'écran pour un humain.
+* Il faut utiliser print pour afficher une information à l'écran destinée à un humain.
 
-Il faut utiliser return pour envoyer une valeur dans un point de votre code, envoyer une valeur vers une autre fonction ou vers une variable.
+* Il faut utiliser return pour envoyer une valeur dans un point de votre code, envoyer une valeur vers une autre fonction ou vers une variable.
 
 

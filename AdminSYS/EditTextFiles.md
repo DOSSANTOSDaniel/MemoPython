@@ -1,4 +1,5 @@
 # Affichage et édition de fichiers texte
+
 Lire un fichier texte :
 ```Python
 file_1 = open("/home/daniel/toto.txt", "r") # ouverture du fichier en lecture seule
@@ -9,7 +10,7 @@ print(in_file) # affichage du contenu
 file_1.close() # fermeture du fichier
 ```
 
-Lire le contenu d'un fichier, méthode plus simple :
+Autre méthode pour lire un fichier :
 ```python
 with open('/home/daniel/toto.txt') as of:
     lines = of.readlines()
@@ -76,7 +77,7 @@ Compter le nombre de lignes dans un fichier texte :
 ```Python
 file_1 = open("/home/daniel/toto.txt", "r") # ouverture du fichier en lecture seule
 
-line = file_1.readlines() # Attention il y a un S "readlines"
+line = file_1.readlines() 
 
 print(len(line))
 
@@ -120,12 +121,15 @@ print(file_1.read())
 file_1.close() # fermeture du fichier
 ```
 
-Ajouter du texte :
-```Python
-# "a" append ajouter à la fin du fichier
-# "w" write écrase le contenue existant
-# "r+" lecture et écriture sans écraser le contenu
-```
+Traitement du texte :
+
+| Options | Description |
+|:--:|:--:|
+| a | "append" ajouter à la fin du fichier et crée le fichier s'il n'existe pas |
+| w | "write" écrase le contenue existant et crée le fichier s'il n'existe pas |
+| r+ | "read" lecture et écriture sans écraser le contenu existant |
+| x | "create" crée un fichier, si le fichier existe déjà alors une erreur sera renvoyée |
+
 
 Ajouter du texte et afficher :
 ```Python
@@ -138,11 +142,7 @@ print(file_1.read())
 file_1.close() # fermeture du fichier
 ```
 
-Créer un nouveau fichier :
-```Python
-# "x" create crée un fichier, si fichier existe alors erreur
-# "a" append crée le fichier s'il n'existe pas
-# "w" write crée le fichier s'il n'existe pas
-
+Simple exemple de création de fichier :
+```python
 file_2 = open("Bonjour.txt", "x")
 ```

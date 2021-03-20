@@ -15,7 +15,7 @@ Quand on crée un objet à partir d'une classe (instanciation).
 Il est préférable de mettre chaque classe dans un fichier à part.
 Les nom des classes doivent toujours être en CamalCase.
 
-### Déclaration de la classe :
+### Déclaration d'une classe :
 ```python
 class Chien
     def __init__(self):

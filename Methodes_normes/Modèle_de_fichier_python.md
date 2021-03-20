@@ -1,3 +1,5 @@
+# Entête d'un fichier python
+
 ```Python
 #!/usr/bin/python
 # -*- coding: utf-8 -*-

@@ -5,8 +5,8 @@
 Nom du projet : RenameFiles
 Auteur(s) :
 Version : 0
-Notes : Ce programme va permettre de renomer
-de multipless fichiers en même temps.
+Notes : Ce programme va permettre de renommer
+de multiples fichiers en même temps.
 """
 
 # Programme principal
@@ -58,9 +58,9 @@ while True:
         print("Erreur de syntaxe")
         continue
 
-    print("\n Saisir un texte si besoin pour renomer les fichiers")
+    print("\n Saisir un texte si besoin pour renommer les fichiers")
     print("dans le cas contraire le texte par défaut [file] sera appliqué.")
-    print("Modèle de nom : [texte]_[nombre].[extention]")
+    print("Modèle de nom : [texte]_[nombre].[extension]")
     texte = input("Saisir Texte : ")
 
     if len(texte) == 0:

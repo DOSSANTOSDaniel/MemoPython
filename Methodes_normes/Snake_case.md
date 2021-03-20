@@ -1,5 +1,5 @@
 # Le snake case
-C'est une convention de nomage s'appliquant aux variables, fonction et méthodes en Python.
+C'est une convention de nommage s'appliquant aux variables, fonction et méthodes en Python.
 
 Les régles sont :
 1. Tous les lettres en minuscule.

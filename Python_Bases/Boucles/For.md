@@ -1,8 +1,7 @@
-# Les boucles
 
-## Boucle for
+# Boucle for
 
-Une boucle for permet de répéter une action déterminée, un nombre de fois lui aussi déterminé.
+Une boucle for permet de répéter une action un nombre de fois déterminé.
 
 Exemple :
 
@@ -21,7 +20,7 @@ for i in range(5):
 | Paramètres | Description |
 |:--|:--|
 | range(5) | C'est une liste de chiffres de 0 à 5 exclut |
-| i | Représente chaque chiffre à chaque tour de la boucle, c'est une variable locale à la boucle |
+| i | Représente chaque chiffre à chaque tour de la boucle, c'est une variable locale |
 
 
 Paramètres de range
@@ -41,7 +40,7 @@ for i in range(10, 20, 2):
 
 ```
 
-```code
+```
 range(10, 20, 2)
        |   |  |
        |   |  +-----> le pas (de 2 en 2)
@@ -81,7 +80,7 @@ for i in range(10):
 
 ```
 
-Le continue ici permet de continuer la boucle sans afficher le 5, affiche les chiffres de 0 à 10 exclut sans afficher le 5 
+Le continue ici permet de continuer la boucle sans afficher le 5, il affiche les chiffres de 0 à 10 exclut sans afficher le 5.
 
 ```python
 for i in range(10):
@@ -100,26 +99,5 @@ for i in range(10):
 9
 
 ```
-
-## La structure d'itération while
-
-La boucle while permet de faire une action en continue tant qu'une condition n'est pas satisfaite ou qu'elle soit satisfaite 
-
-Exemple :
-
-```python
-toto = 0
-
-while toto < 10:
-    print(toto)
-    toto += 1
-
-```
-
-Explications
-
-Tant que toto contient une valeur inférieur à 10 alors on affiche la valeur de toto et on incrémente la valeur de toto de 1, à chaque tour de boucle.
-
-Quand toto sera égal ou supérieur à 10 la boucle s’arrêtera.
 
 

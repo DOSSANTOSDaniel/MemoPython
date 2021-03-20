@@ -1,4 +1,4 @@
-## Le type des variables
+# Le type des variables
 
 | Type | Description |
 |:--|:--|
@@ -7,7 +7,7 @@
 | str | Chaîne de caractère exemple : ("Bonjour") |
 | bool | Booléen exemple (True ou False) |
 
-### Vérifier le type d'une variable
+## Vérifier le type d'une variable
 
 Pour vérifier le type d'une variable on utilise la fonction type.
 
@@ -16,9 +16,10 @@ Pour vérifier le type d'une variable on utilise la fonction type.
 <class 'int'>
 
 ```
+
 Ici la variable variable_a est de type "int", c'est donc un entier.
 
-### Convertir une variable dans un autre type
+## Convertir une variable vers un autre type
 
 Pour convertir la valeur 255 qui est un entier en une chaîne de caractère :
 
@@ -28,7 +29,7 @@ Pour convertir la valeur 255 qui est un entier en une chaîne de caractère :
 
 ```
 
-Quelques exemples de conversions
+Quelques exemples de conversions :
 
 ```python
 >>> toto = 255
@@ -45,7 +46,7 @@ Quelques exemples de conversions
 
 ```
 
-Tableau des conversions
+Tableau des conversions :
 
 | Type | Description |
 |:--|:--|

@@ -1,7 +1,9 @@
-## Les variables
-En python on a pas besoin de typer nos variables, le type est automatiquement déduits.
+# Les variables
 
-### Syntaxe de base
+En python on a pas besoin de typer nos variables, le type est automatiquement déduit.
+
+## Syntaxe de base
+
 ```python
 >>> nombre_1 = 5
 >>> nombre_2 = 3
@@ -11,7 +13,7 @@ En python on a pas besoin de typer nos variables, le type est automatiquement d�
 
 ```
 
-### Permutation des valeurs de deux variables
+## Permutation des valeurs de deux variables
 
 En plusieurs lignes :
 

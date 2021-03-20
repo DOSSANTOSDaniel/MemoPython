@@ -1,5 +1,6 @@
 # Administration de bases de données PostgreSQL
 ## Besoin
+
 Installation de psycopg2-binary :
 ```bash
 pip3 install psycopg2-binary
@@ -21,9 +22,7 @@ conn_string = "host={0} user={1} dbname={2} password={3}".format(host, user, dbn
 conn = psycopg2.connect(conn_string)
 print("Connexion établie")
 
-cursor = conn.cursor()
-
-#créer un cursor
+#nous avons besoin d'un objet curseur pour la récupération de résultats
 cur = conn.cursor()
 
 #requête SQL
@@ -48,7 +47,7 @@ import psycopg2
 host = "192.168.0.29"
 dbname = "basetoto"
 user = "toto"
-password = "digital"
+password = "toto"
 #sslmode = "require"
 
 #construction de la connexion

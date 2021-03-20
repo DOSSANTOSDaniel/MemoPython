@@ -24,7 +24,7 @@ import os
 def writeFile(myFile):
     f = open(myFile, "a")
     while True:
-        ligne = input("Ecrivez ici, laisser une ligne vide pour quitter : ")
+        ligne = input("Écrivez ici, laisser une ligne vide pour quitter : ")
         if ligne == '':
             break
         f.write(ligne + "\n")
@@ -60,7 +60,7 @@ def modifyFile(myFile):
     changeLine = input("Numéro de ligne à changer : ")
     changeLine = int(changeLine) - 1
 
-    newLine = input("Ecrire dans la nouvelle ligne : ")
+    newLine = input("Écrire dans la nouvelle ligne : ")
 
     listeLines.remove(listeLines[changeLine])
     listeLines.insert(changeLine, newLine + "\n")
@@ -113,4 +113,4 @@ while True:
         print("\n Suppression d'un fichier \n")
         removeFile(FileDoc)
     else:
-        print("\n Erreur de saissie ! \n")
+        print("\n Erreur de saisie ! \n")

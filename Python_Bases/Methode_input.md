@@ -6,6 +6,7 @@ Exemple, demander le nom d'une personne :
 ```python
 >>> nom = input("Votre nom : ")
 Votre nom : toto
+
 >>> print(nom)
 toto
 

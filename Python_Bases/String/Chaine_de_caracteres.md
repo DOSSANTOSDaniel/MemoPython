@@ -1,4 +1,4 @@
-﻿## Les chaînes de caractères
+# Les chaînes de caractères
 
 Il est possible de récupérer seulement certains caractères d'une chaîne de caractères
 
@@ -13,7 +13,7 @@ l
 
 ```
 
-Avoir le dernier caractère sans savoir le nombre de caractères :
+Avoir le dernier caractère sans savoir le nombre de caractères 
 
 ```python
 >>> toto = "Daniel"
@@ -21,6 +21,7 @@ Avoir le dernier caractère sans savoir le nombre de caractères :
 l
 
 ```
+
 Afficher à partir des dernières lettres vers les premières
 
 ```python
@@ -30,11 +31,11 @@ e
 
 ```
 
-Extraire une partie de la chaîne de caractère
+Extraire une partie de la chaîne de caractère :
 
 L'index commence toujours à 0.
 
-Extraire à partir du caractère à l'index 2 jusqu’à la fin
+Extraire à partir du caractère à l'index 2 jusqu’à la fin.
 
 ```python
 >>> toto = "Daniel"
@@ -42,6 +43,7 @@ Extraire à partir du caractère à l'index 2 jusqu’à la fin
 niel
 
 ```
+
 Extraire à partir du caractère à l'index 2 jusqu’au début
 
 ```python
@@ -67,14 +69,5 @@ On a aussi la possibilité de répéter une chaîne de caractère
 >>> print(fois_4)
 DanielDanielDanielDaniel
 >>> 
-
-
-```
-
-```python
-
-```
-
-```python
 
 ```

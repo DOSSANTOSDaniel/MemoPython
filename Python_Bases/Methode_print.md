@@ -1,36 +1,25 @@
-## La méthode print
+# La fonction print
 
-La méthode print permet d'afficher une valeur à l'écran.
+Elle permet d'afficher une valeur à l'écran.
 
 Exemple d'affichage pour une chaîne de caractère :
 
 ```python
 >>> print("Bonjour")
 Bonjour
->>> print('Bonjour')
-Bonjour
->>>
  
 ```
 
 Une chaîne de caractères est toujours entouré de doubles cotes(" ") ou de simples cotes(' ').
 
-Paramétrés de la fonction print
+Paramètres de la fonction print :
 
 | Paramétre | Description |
 |:--|:--|
 | sep=' ' | Spécification d'un séparateur |
 | end=' ' | Permet de définir l'affichage après l'affichage |
 
-Simple affichage d'une chaîne de caractère
-
-```python
->>> print('Bonjour')
-Bonjour
-
-```
-
-Affichage d'une chaîne de caractère avec séparateur
+Affichage d'une chaîne de caractère avec séparateur :
 
 ```python
 >>> print("Bonjour", "Hello", sep=' ----> ')
@@ -38,36 +27,28 @@ Bonjour ----> Hello
 
 ```
 
-Afficher la valeur d'une variable
+Afficher la valeur d'une variable :
 
 ```python
 >>> toto = 'Bonjour toto'
 >>> print(toto)
+
 Bonjour toto
 
 ```
-Affichage avec un retour à la ligne
+
+Affichage avec un retour à la ligne :
 
 ```python
 >>> print('Bonjour \n')
+
 Bonjour
  
 ```
-Affichage avec une tabulation
+
+Affichage avec une tabulation :
 
 ```python
->>> print('\n Bonjour')
-
- Bonjour
-
-```
-Pour afficher la valeur d'une variable on peut simplement taper le nom de la variable au lieu d'utiliser print
-
-```python
->>> toto = "Daniel"
->>> toto
-'Daniel'
->>> print(toto)
-Daniel
-
+>>> print('\t Bonjour')
+	 Bonjour
 ```

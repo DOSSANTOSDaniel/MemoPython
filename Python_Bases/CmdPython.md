@@ -1,6 +1,6 @@
-# Commandes Python directement dans le terminal
+# Commandes Python directement sur le terminal
 
-Executer unee commande :
+Exécuter une commande :
 ```bash
 [daniel🐧iS3810](~)$ python3 -c 'print(4*4)'
 
@@ -8,7 +8,6 @@ Executer unee commande :
 ```
  
 Entrer dans le prompt Python : 
-
 ```bash
 [daniel🐧iS3810](~)$ python3
 

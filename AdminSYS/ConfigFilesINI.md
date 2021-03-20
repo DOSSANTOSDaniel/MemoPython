@@ -1,4 +1,4 @@
-# Édition et création de fichiers de configuration INI
+# Édition et création de fichiers de configuration au format INI
 
 Création des fichiers de configuration :
 ```Python
@@ -7,10 +7,9 @@ file_1 = open("/home/daniel/config.ini", "a+") # ouverture et écriture du fichi
 file_1.writelines("[User] \n")
 file_1.writelines("name : 'daniel' \n")
 file_1.writelines("password : '1234' \n")
-
 file_1.close() # fermeture du fichier
- lecture
-file_1 = open("/home/daniel/config.ini", "r") # ouverture et écriture du fichier sans écraser l'existant
+
+file_1 = open("/home/daniel/config.ini", "r") # lecture du fichier
 print(file_1.read())
 file_1.close() # fermeture du fichier
 ```
@@ -23,6 +22,7 @@ Résultat :
 ```
 
 ## Utilisation du module configparser
+
 Création du fichier de configuration :
 ```python
 import configparser
@@ -49,26 +49,28 @@ Affichage d’éléments de configuration :
 ```python
 config = configparser.ConfigParser()
 config.read('/home/daniel/config.ini')
-print(config.sections()) # affichage des sections
-print(config.get('User', 'name')) # affichage d'une donnée en particulier appartenant à la section User
+print(config.sections()) # affichage des sections exemple : [Users]
+print(config.get('Users', 'name')) # affichage d'une donnée en particulier appartenant à la section User
 ```
 
 Éditer les paramètres :
 ```python
 config = configparser.ConfigParser()
 config.read('/home/daniel/config3.ini')
+
 file_1 = open("/home/daniel/config3.ini", "r+")
 config.set('Host', 'IP', "'192.168.0.222'")
 config.write(file_1)
 file_1.close()
 ```
 
-Éditer des paramètres (ajouts) :
+Ajouts de nouveaux paramètres :
 ```python
 config = configparser.ConfigParser()
 config.read('/home/daniel/config3.ini')
+
 file_1 = open("/home/daniel/config3.ini", "r+")
-config.set('Host', 'Type', "'Merde'")
+config.set('Host', 'Type', "'server'")
 config.write(file_1)
 file_1.close()
 ```
@@ -77,6 +79,7 @@ Ajouter une section avec la méthode add_section() :
 ```python
 config = configparser.ConfigParser()
 config.read('/home/daniel/config3.ini')
+
 file_1 = open("/home/daniel/config3.ini", "r+")
 config.add_section('Vms')
 config.set('Vms', 'name', 'vm1')
