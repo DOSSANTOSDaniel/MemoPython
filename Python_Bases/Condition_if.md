@@ -29,7 +29,7 @@ elif eleve == 'Clair':
 elif eleve == 'Sophie':
     print(eleve, "est présente")
 else:
-    print(eleve, "ne fait pas partie des éleves de cette classe !")
+    print(eleve, "ne fait pas partie des élèves de cette classe !")
 ```
 
 | Condition | Description |
@@ -55,6 +55,8 @@ Les opérateurs logiques
 |:--|:--|
 | and | et |
 | or | ou |
+| not | négation |
+| is | affirmation |
 
 Les opérateurs logiques permettent de combiner plusieurs conditions en une seule ligne.
 

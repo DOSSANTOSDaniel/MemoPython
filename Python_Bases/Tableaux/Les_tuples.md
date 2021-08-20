@@ -49,3 +49,4 @@ print(mon_tuple[1])
 ``` 
 
 On peut afficher les tuples comme les listes c'est un peut près les mêmes propriétés.
+

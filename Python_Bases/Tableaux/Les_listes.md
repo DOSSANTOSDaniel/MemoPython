@@ -102,3 +102,59 @@ for i in enumerate(ma_liste):
 ``` 
 
 Il est aussi possible d'avoir des listes à l'intérieur d'autres listes.
+
+Exemples :
+
+Afficher la dernière valeur
+
+```Python
+liste[-1]
+```
+
+Afficher toute la liste
+
+```Python
+liste[:]
+```
+
+Ajouter un élément à la fin d'une liste
+
+```Python
+liste.append("olivier")
+```
+
+Insertion d'un élément à une place précise de l'index 
+
+```Python
+liste.insert(1,"toto")
+```
+
+Insertion de l'élément "toto" à l'index 1 sans écraser les autres éléments.
+
+Faire fusionner deux listes  
+
+```Python
+liste.extend(liste2)
+```
+
+Supprimer un élément
+
+```Python
+liste.remove("jean")
+```
+
+Vérifier si un élément est présent dans la liste
+
+```Python
+print("ana" in liste)
+```
+
+Affichage de l'élément et son index
+
+```Python
+lettres = [ "A", "B", "C"]
+
+for index,lettre in enumerate(lettres):
+	print(index, lettre)
+
+```

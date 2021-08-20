@@ -2,13 +2,26 @@
 
 Entête désignant l’interpréteur sur Linux :
 
+Pour désigner l'interpréteur python on va avoir besoin du chemin absolu du paquet python3, pour trouver ce chemin on peut utiiliser la commande which :
+
+```Bash
+┌──[daniel👾archos]-(~/TP)
+│
+└─$ which python3
+
+/usr/bin/python3
+
+```
+
+Donc l'entête sera :
+
 ```python
-#!/usr/bin/env python3
+#!/usr/bin/python3
 ```
 
 Récupération d'arguments :
 ```python
-#!/usr/bin/env python3
+#!/usr/bin/python3
 import sys
 print("Le script :", sys.argv[0])
 print("Le premier argument :", sys.argv[1])
@@ -25,7 +38,7 @@ L'argument : Bonjour
 
 Gestion des arguments passés :
 ```python
-#!/usr/bin/env python3
+#!/usr/bin/python3
 import argparse
 import os
 

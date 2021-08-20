@@ -12,6 +12,8 @@
 Pour vérifier le type d'une variable on utilise la fonction type.
 
 ```python
+>>> variable_a = 5
+
 >>> type(variable_a)
 <class 'int'>
 
@@ -45,6 +47,8 @@ Quelques exemples de conversions :
 '0xff'
 
 ```
+
+Attention, on ne peut pas transformer un string en int ou autre.
 
 Tableau des conversions :
 

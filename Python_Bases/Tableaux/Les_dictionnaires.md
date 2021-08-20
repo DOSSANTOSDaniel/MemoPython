@@ -45,3 +45,26 @@ Afficher les valeurs :
 ```python
 print(mon_dict.values())
 ```  
+
+Autre manière de déclarer un dictionnaire
+
+```Python
+mon_dict = { "Fruit": "pomme", "voiture": "roues" }
+                ^        ^          ^        ^  
+                |        |          |        |
+clés -----------+--------|----------+        |
+                         |                   |
+Valeurs -----------------+-------------------+
+```
+
+Supprimer un couple clés valeurs
+
+```Python
+del mon_dict["voiture"]
+```
+
+Afficher les différents éléments
+
+```Python
+print(mon_dict.items())
+```

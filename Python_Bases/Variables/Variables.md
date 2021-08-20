@@ -13,6 +13,59 @@ En python on a pas besoin de typer nos variables, le type est automatiquement d�
 
 ```
 
+## Affichage des variables
+
+Méthode 1 :
+
+```Python
+# Code
+var = 5
+
+print(var)
+
+# Résultat
+5
+>>>
+```
+
+Méthode 2 :
+
+```Python
+# Code
+mon_nom = "Mon nom est {nom} !"
+
+print(mon_nom.format(nom = "Jean"))
+
+# Résultat
+Mon nom est Jean !
+```
+
+autre exemple :
+
+```Python
+# Code
+nom = 'Ana'
+age = 21
+
+print("{} a {} ans".format(nom,age))
+
+# Résultat
+Ana a 21 ans
+```
+
+Méthode 3 :
+
+```Python
+# Code
+nom = 'Ana'
+age = 21
+
+print(f"{nom} a {age} ans")
+
+# Résultat
+Ana a 21 ans
+```
+
 ## Permutation des valeurs de deux variables
 
 En plusieurs lignes :
@@ -42,4 +95,3 @@ En une seule ligne :
 2
 
 ```
-
