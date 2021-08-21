@@ -140,3 +140,11 @@ list_dir = glob.glob("/home/daniel/*.png")
 
 print(list_dir)
 ```
+
+### os.walk
+
+Permet d'afficher plusieurs informations relatives aux fichiers et répertoires.
+
+### os.environ
+
+Affiche les variables d'environnement.

@@ -40,7 +40,7 @@ print(mon_nom.format(nom = "Jean"))
 Mon nom est Jean !
 ```
 
-autre exemple :
+Autre exemple :
 
 ```Python
 # Code
